@@ -105,7 +105,7 @@ func main() {
 }
 
 func printUsage() {
-	fmt.Println("Usage: mvp-lsp-client <command> <file> [args...]")
+	fmt.Println("Usage: lspit <command> <file> [args...]")
 	fmt.Println()
 	fmt.Println("Commands:")
 	fmt.Println("  hover <file> <line> <column>      Get type information at position")
